@@ -1,0 +1,29 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.linkedEditing": true,
+    "editor.lineHeight": 35,
+    "editor.fontWeight": "600",
+    "files.autoSave": "afterDelay",
+    "window.restoreFullscreen": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[cpp]": {
+        "editor.defaultFormatter": null
+    },
+    "[java]": {
+        "editor.defaultFormatter": null
+    },
+    "[c]": {
+        "editor.defaultFormatter": null
+    },
+    "editor.formatOnSave": true,
+    "prettier.tabWidth": 4,
+    "workbench.colorTheme": "Dracula",
+    "breadcrumbs.enabled": false,
+    "window.menuBarVisibility": "toggle",
+    "liveshare.authenticationProvider": "GitHub",
+    "editor.fontSize": 14,
+    "window.zoomLevel": 1,
+    "workbench.sideBar.location": "right",
+    "editor.minimap.enabled": false
+}
