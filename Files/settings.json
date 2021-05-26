@@ -1,29 +1,48 @@
 {
-    "workbench.startupEditor": "newUntitledFile",
-    "workbench.iconTheme": "material-icon-theme",
-    "editor.linkedEditing": true,
-    "editor.lineHeight": 35,
-    "editor.fontWeight": "600",
-    "files.autoSave": "afterDelay",
-    "window.restoreFullscreen": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "[cpp]": {
-        "editor.defaultFormatter": null
-    },
-    "[java]": {
-        "editor.defaultFormatter": null
-    },
-    "[c]": {
-        "editor.defaultFormatter": null
-    },
+    "editor.suggestSelection": "first",
     "editor.formatOnSave": true,
-    "prettier.tabWidth": 4,
-    "workbench.colorTheme": "Dracula",
-    "breadcrumbs.enabled": false,
-    "window.menuBarVisibility": "toggle",
-    "liveshare.authenticationProvider": "GitHub",
-    "editor.fontSize": 14,
-    "window.zoomLevel": 1,
+    "editor.minimap.enabled": false,
+    "editor.lineHeight": 28,
+    "editor.fontWeight": "bold",
+    "editor.linkedEditing": true,
+
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "newUntitledFile",
     "workbench.sideBar.location": "right",
-    "editor.minimap.enabled": false
+
+    "window.restoreFullscreen": true,
+    "window.menuBarVisibility": "compact",
+    "window.zoomLevel": 1,
+    "files.autoSave": "afterDelay",
+
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+
+    "prettier.tabWidth": 4,
+
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
 }
