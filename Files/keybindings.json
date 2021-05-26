@@ -9,10 +9,6 @@
         "command": "cph.runTestCases"
     },
     {
-        "key": "`",
-        "command": "workbench.view.explorer"
-    },
-    {
         "key": "ctrl+`",
         "command": "cph.judgeView.focus"
     }
