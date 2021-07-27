@@ -12,9 +12,9 @@
 
     "window.restoreFullscreen": true,
     "window.menuBarVisibility": "compact",
-    "window.zoomLevel": 1,
-    "files.autoSave": "afterDelay",
 
+    "files.autoSave": "afterDelay",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.cursorStyle": "line",
 
@@ -38,11 +38,8 @@
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "workbench.editorAssociations": [
-        {
-            "viewType": "jupyter.notebook.ipynb",
-            "filenamePattern": "*.ipynb"
-        }
-    ],
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "window.zoomLevel": 1
 }
